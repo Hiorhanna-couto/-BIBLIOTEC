@@ -79,9 +79,110 @@ nav a:hover {
 
 /* /fim do menu/ */
 
+/* banner */
+
+#banner{
+
+background-color: #4A67DF;
+width: 100%;
+height: 570px;
+
+
+
+}
+
+.banner-flex{  
+
+  display: flex;
+  /* border: 2px solid rgb(128, 0, 113); */
+ justify-content: space-between;
+  align-items: center;
+
+}
+.banner-info {
+    width:450px ;
+    height:300px ;
+    /* border: 2px solid red; */
+     display: flex;
+    justify-content: space-between;
+   flex-wrap: wrap;
+   align-items: flex-end;
+}
+
+#banner img{
+    width: 500px; 
+    height: 100%;
+   align-self: flex-end;
+
+}
+
+h1 {
+  color: white;
+  font-size: 30px;
+
+}
+.banner-info p, .texto-gratis p{
+
+    color: white;
+    font-size: 19px;
+
+
+}
+
+.banner-info button , .texto-gratis button{
+ background-color: #26333D;
+   color: white;
+  font-size: 20px;
+  /* padding-left: 10px;
+  padding-right:20px ;
+  padding-top:10px ;
+padding-bottom: 20px; */
+
+/* top */
+width: 180px;
+padding: 10px 20px 10px 20px;
+height: 50px;
+border-radius: 10px;
+border: none;
+text-transform: uppercase;
+}
+
+
+
+#totalmente-gratis{
+  background-color: #3691d8;
+  height:  300px;
+
+}
+.totalmente-flex img{ 
+width: 400px;
+
+}
+
+.totalmente-flex {
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.texto-gratis{
+
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+    height: 200px;
+    border: 3px solid red;
+}
+
+
+    
+
+
+
+
+
 
 /* section porque usar bibliotec*/
-
 .titulo {
     width: 100%;
     display: flex;
@@ -93,7 +194,7 @@ nav a:hover {
     /* border: 2px solid black  */
 }
 
-h1 {
+h2 {
     width: 50%;
     text-align: center;
     border-bottom: 5px solid #00d3d4;
