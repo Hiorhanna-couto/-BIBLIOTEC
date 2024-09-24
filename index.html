@@ -15,11 +15,14 @@
         <div class="layout-grid header-flex">
             <img src="./Imagens/logo-desktop.svg" alt="Livro aberto com o texto Bibliotec ao seu lado">
 
-            <nav>
+            <nav id="menu "  class="menu">
                 <a href="#">QUEM SOMOS</a>
                 <a href="#">NOSSO ACERVO</a>
                 <a href="#">LOGIN</a>
             </nav>
+          <img src="./imagens/menu-hamburger.png" alt="os login"  onclick="mostrarmenu ()">
+
+
         </div>
     </header>
 
@@ -146,6 +149,7 @@
         </section>
 
     </main>
+  
 
     <footer>
         <div class="layout-grid footer-flex">
@@ -189,8 +193,18 @@
             <p>Politica de Privacidade</p>
             <p>Termos e condições</p>
         </div>
+        
+
 
     </footer>
+     <script>
+    function mortrarmenu(){
+
+        document.getElementById("menu").classList.toggle("mostra-menu")
+    }
+
+
+     </script>
 </body>
 
 </html>

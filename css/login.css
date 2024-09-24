@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+    
 * {
     margin: 0;
     padding: 0;
@@ -31,7 +31,7 @@ header {
     justify-content: center;
 }
 
-.header-flex {
+.header-flex nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -122,3 +122,78 @@ header nav a {
 .login-button:hover {
     background-color: #3691d8;
 }
+
+
+@media screen and (max-width: 992px) {
+     nav {
+
+        position: fixed;
+        top:0 ;
+        left: -80%;
+       width:80% ;
+      z-index: 10;
+
+       height:100% ;
+       background-color: #374d60;
+     }
+     .mortra-menu{
+        left: 0;
+     }
+     .bibliotec-flex {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    h1 {
+        margin-bottom: 30px;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .section-flex article {
+        margin-bottom: 50px;
+        height: 300px;
+    }
+    .section-flex h1 {
+        margin-bottom: 0px;
+    }
+
+
+    .banner-flex2 {
+        display: none;
+    }
+
+    .banner-info2 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 450px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .capas-livros {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
